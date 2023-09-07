@@ -338,7 +338,7 @@ public:
                 if (i.id.find(L"Physical") != wstring::npos)
                     poe->draw_text(L"Physical", x, y - 10, 0xffffff, 0x7f0000, 1.0, 1);
                 else if (i.id.find(L"Cold") != wstring::npos)
-                    poe->draw_text(L"Cold", x, y - 10, 0xffffff, 0x7f0000, 1.0, 1);
+                    poe->draw_text(L"Cold1234", x, y - 10, 0xffffff, 0x7f0000, 1.0, 1);
                 else if (i.id.find(L"Fire") != wstring::npos)
                     poe->draw_text(L"Fire", x, y - 10, 0xffffff, 0x7f0000, 1.0, 1);
                 else if (i.id.find(L"Lightning") != wstring::npos)
